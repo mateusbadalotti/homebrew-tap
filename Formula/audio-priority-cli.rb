@@ -6,7 +6,7 @@ class AudioPriorityCli < Formula
   sha256 "aa4af9e09bcf49c8e09dc3ffe96a960c752be050d26e2c41dc68ba7f04f152c1"
   license "MIT"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   def install
     bin.install "audio-priority"

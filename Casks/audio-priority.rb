@@ -8,7 +8,7 @@ cask "audio-priority" do
   homepage "https://badalotti.dev/audio-priority"
 
   auto_updates false
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "AudioPriority.app"
 end
