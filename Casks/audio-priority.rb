@@ -1,14 +1,14 @@
 cask "audio-priority" do
-  version "2.0.0"
-  sha256 "eed3bd983969c0c93d61ad74bda12ec1e98551f3be430b43b6ef3cab2abb597f"
+  version "2.1.0"
+  sha256 "58094012fdd12768f75f06d0521cbdf21c43d93779674d9daf61aabfeb4870d1"
 
-  url "https://github.com/mateusbadalotti/audio-priority/releases/download/v2.0.0/AudioPriority.zip"
+  url "https://github.com/mateusbadalotti/audio-priority/releases/download/v2.1.0/AudioPriority.zip"
   name "Audio Priority"
   desc "Menu bar app that manages audio device priority"
   homepage "https://badalotti.dev/audio-priority"
 
   auto_updates false
-  depends_on macos: :tahoe
+  depends_on macos: ">= :tahoe"
 
   app "AudioPriority.app"
 end
