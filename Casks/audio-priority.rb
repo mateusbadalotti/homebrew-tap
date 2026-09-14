@@ -1,6 +1,6 @@
 cask "audio-priority" do
-  version "2.4.0"
-  sha256 "38ba505115d9adcd01a518ccfc9ff61651247fc9d9da3cb80138f9aa761e2baf"
+  version "2.4.1"
+  sha256 "24700b127eca508748226aec6c40ad5872af63421e6dac2f4937d4ff968d8384"
 
   url "https://github.com/mateusbadalotti/audio-priority/releases/download/v#{version}/AudioPriority.zip"
   name "Audio Priority"
