@@ -1,6 +1,6 @@
 cask "ytfast" do
-  version "0.1.1"
-  sha256 "1a07aa4d827f8faeb7d6072ccf3bf726d6afae10f496142d5372a96be8414f92"
+  version "0.1.2"
+  sha256 "48a8751c1a9742797e0ebb80aaa61f6d4bbac65f7e1516575b765547fbc06dbc"
 
   url "https://github.com/mateusbadalotti/ytfast/releases/download/v#{version}/ytfast-macos.zip"
   name "ytfast"
